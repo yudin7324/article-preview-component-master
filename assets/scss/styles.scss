@@ -1,0 +1,20 @@
+@use 'reset';
+@use 'vars' as *;
+@use 'card';
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: $color-grey-200;
+  padding: 64px 24px;
+
+  @media (min-width: $medium) {
+    padding: 64px 80px;
+  }
+
+  @media (min-width: $large) {
+    padding: 0;
+  }
+}
