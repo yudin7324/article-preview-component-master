@@ -132,6 +132,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .card__img img {
   object-fit: cover;
+  object-position: left;
   height: 100%;
   width: 100%;
 }
