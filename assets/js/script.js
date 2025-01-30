@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const shareBtn = document.getElementById('share-btn');
-  const socials = document.getElementById('socials');
+  const socials = document.getElementById('popup');
   const ACTIVE = 'active';
   
   shareBtn.addEventListener('click', toggleSocials)
